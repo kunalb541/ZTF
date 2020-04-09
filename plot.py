@@ -5,10 +5,13 @@ Created on Tue Mar 10 22:35:43 2020
 """
 
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import statistics as st
 
-## Loading different arrays 
+## Loading different arrays
+''' 
 jd = np.load('jd.npy')
 fwhm = np.load('fwhm.npy')
 m = np.load('')
@@ -48,11 +51,11 @@ plt.ylabel('Number of Alerts')
 plt.xlabel('Julian Date (after substracting the minimum)')
 plt.savefig("jd",dpi = 1200)
 plt.show()
-
-plt.figure(5)
-plt.hist(f)
+'''
+fwhm = np.load('nparray/fwhm.npy')
+plt.hist(fwhm)
 plt.title('fwhm')
 plt.savefig("fwhm",dpi = 1200)
-plt.show()
+#plt.show()
 
 print(st.median(fwhm))

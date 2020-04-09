@@ -7,14 +7,13 @@ start_time = time.time()
 
 url1 = "https://mars.lco.global/?objectcone=m31%2C1.5&page="
 url2 = "&format=json"
+
 #Data to be extracted from the saved alerts json file 
 magpsf = np.zeros(35100)
-
 fid = np.zeros(35100)
 xp = np.zeros(35100)
 yp = np.zeros(35100)
 distnr = np.zeros(35100)
-
 rb = np.zeros(35100)
 sigmagap = np.zeros(35100)
 jd = np.zeros(35100)

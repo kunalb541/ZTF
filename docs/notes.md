@@ -17,7 +17,7 @@ Recomputed from the committed arrays in `data/arrays/`:
 | Property            | Value                                   |
 | ------------------- | --------------------------------------- |
 | Alerts collected    | 35,077                                  |
-| Observation span    | 2018-07-13 → 2020-02-26 (JD 2458312.97–2458905.64) |
+| Observation span    | 2018-07-13 → 2020-02-26 (JD 2458312.97–2458905.63) |
 | Magnitude (magpsf)  | 13.35 – 21.09                           |
 | RealBogus (rb)      | 0.05 – 1.00                             |
 | FWHM (median)       | 1.69 px                                 |
